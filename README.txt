@@ -1,0 +1,2 @@
+Avec devinette, l'utilisateur a 6 chances pour trouver un chiffre aléatoire compris entre 0 et 100.
+Après chaque réponse, un message indique dans la console si le chiffre est juste ou si il est plus grand ou plus petit que le chiffre recherché.
