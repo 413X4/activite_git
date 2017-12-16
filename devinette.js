@@ -21,14 +21,14 @@ var essais = 1;
 while (nombre !== solution && essais <= 6) {
     nombre = Number(prompt("Devinez un nombre entre 0 et 100"));
     if (essais === 6 && nombre !== solution) {
-        console.log("Perdu, la solution était " + solution)
+        alert("Perdu, la solution était " + solution)
     } else if (nombre === solution) {
-        console.log("Bravo la solution était " + solution);
-        console.log("Vous avez trouvé en " + essais + " essai(s)");
+        alert("Bravo la solution était " + solution);
+        alert("Vous avez trouvé en " + essais + " essai(s)");
     } else if (nombre > solution) {
-        console.log(nombre + " est trop grand");
+        alert(nombre + " est trop grand");
     } else if (nombre < solution) {
-        console.log(nombre + " est trop petit");
+        alert(nombre + " est trop petit");
     }
     essais++;
 
